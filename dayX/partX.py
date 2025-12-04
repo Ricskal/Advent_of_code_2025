@@ -16,6 +16,7 @@ def get_input_files():
     return file_paths
 
 def parse_input_file(file_path):
+    with open(file_path, 'r') as file:
     return parsed_file
 
 ## Main method ##
